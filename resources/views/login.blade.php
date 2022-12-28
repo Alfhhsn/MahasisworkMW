@@ -3,48 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MahasisWork | Login</title>
+    <title>Mahasiswork | Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
-  </head>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
+  </head>
   <body>
-    <div class="container-auto">
-      <div class="row align-items-center">
-        <div class="col-6">
-          <img src="img/login image.png" alt="">
-        </div>
-        <div class="col-6 text-center right">
-          <h1 class="welcome">Welcome back, people!</h1>
-          <span class="desc">Welcome back! Please enter your details</span>
-          <button type="button" class="btn btn-outline-light goog-log">Login with Google</button>
-          <form action="{{route('postLogin')}}" method="post">
-            <div class="identity">
-              <div class="form-floating mb-3 my-4">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email</label>
-              </div>
-              <div class="form-floating mb-3 my-2">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-              </div>
-            </div>
-            <section class="create-acc">
-              <span class="create">Create an account? <a href="http://mahasisworkmw.test/sign-up">Here</a></span>
-            </section>
-            <section class="remember">
-              <input class="form-check-input mt-0 klik" type="checkbox" value="" aria-label="Checkbox for following text input">
-              <span class="remember-text">Remember Login</span>
-            </section>
-            <button type="submit" class="btn btn-primary login-btn">Login</button>
-          </form>
-        </div>
-          
+    <section class="login">
+      <div class="login-left">
+        <div class="header">
+          <h1>Welcome Back</h1>
         </div>
       </div>
-    </div>
+      <div class="login-right">
 
-
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>

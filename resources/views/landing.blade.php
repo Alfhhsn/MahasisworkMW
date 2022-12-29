@@ -56,10 +56,15 @@
                 <div class="box">
                 <h1>Starting freelance as easy as make a Social Media</h1>
                 </div>
-                <div class="box">
-                <img src="img/hero1.svg" alt="">
-                </div>
             </div>
+
+        <div class="container1">
+            <form action="https://www.google.com/search" method:"get" class="search-bar">
+                <input type="text" placeholder="search categories" name="q">
+                <button type="submit"><img src="img/search.png"></button>
+            </form>
+        </div>
+            
         </div>
     </section>
     <!-- hero -->

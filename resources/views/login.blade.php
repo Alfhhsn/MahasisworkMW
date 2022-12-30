@@ -17,6 +17,11 @@
       <div class="login-left">
         <div class="header">
           <h1>Welcome Back</h1>
+          <p>Welcome Back! Please enter your details.</p>
+        </div>
+
+        <div class="login-form">
+          
         </div>
       </div>
       <div class="login-right">
